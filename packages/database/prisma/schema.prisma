@@ -1,0 +1,220 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                String   @id @default(cuid())
+  email             String   @unique
+  password          String
+  name              String
+  role              Role
+  orgName           String?
+  orgType           String?
+  industry          String?
+  companySize       String?
+  location          String?
+  isGovEntity       Boolean  @default(false)
+  isCriticalDataEntity Boolean @default(false)
+  usesPayment       Boolean  @default(false)
+  isFintech         Boolean  @default(false)
+  status            UserStatus @default(active)
+  createdAt         DateTime @default(now())
+  lastLogin         DateTime?
+
+  audits            Audit[]
+  certificates      Certificate[]
+  casesOpened       Case[]   @relation("OpenedBy")
+  teamMembers       TeamMember[]
+  regulatorProfile  Regulator?
+  auditorAssignments AuditorAssignment[]
+
+  @@map("users")
+}
+
+model Regulator {
+  id                String   @id @default(cuid())
+  userId            String   @unique
+  user              User     @relation(fields: [userId], references: [id])
+  assignedFrameworkIds String[]
+}
+
+model TeamMember {
+  id          String   @id @default(cuid())
+  parentUserId String
+  parent      User     @relation(fields: [parentUserId], references: [id])
+  email       String
+  name        String
+  role        String
+  privileges  String[]
+  status      UserStatus @default(active)
+  createdAt   DateTime @default(now())
+}
+
+model Framework {
+  id               String   @id @default(cuid())
+  name             String
+  description      String
+  industryTags     String[]
+  regulatorId      String
+  certDurationDays Int
+  price            Int
+  passingThreshold Int
+  status           Status   @default(active)
+  createdAt        DateTime @default(now())
+
+  controls    Control[]
+  audits      Audit[]
+  certificates Certificate[]
+}
+
+model Control {
+  id          String   @id @default(cuid())
+  frameworkId String
+  framework   Framework @relation(fields: [frameworkId], references: [id])
+  name        String
+  description String
+  category    String
+  weight      Int
+}
+
+model UnifiedControl {
+  id          String   @id @default(cuid())
+  name        String
+  description String
+  category    String
+  frameworkIds String[]
+  weight      Int
+}
+
+model Audit {
+  id                String   @id @default(cuid())
+  userId            String
+  user              User     @relation(fields: [userId], references: [id])
+  type              AuditType
+  frameworkIds      String[]
+  auditType         String
+  assignedAuditorId String?
+  status            AuditStatus @default(draft)
+  evidence          Json?
+  scores            Json?
+  overallScore      Int?
+  perFrameworkScores Json?
+  results           String?
+  recommendations   String[]
+  roadmap           Json?
+  investmentPriority Json?
+  certStart         DateTime?
+  certExpire        DateTime?
+  paymentStatus     String   @default(pending)
+  couponUsed        String?
+  amountPaid        Int?
+  auditorReportUrl  String?
+  auditorSignOffName String?
+  auditorSignOffDate DateTime?
+  adminOverridden   Boolean  @default(false)
+  adminOverrideNotes String?
+  createdAt         DateTime @default(now())
+  completedAt       DateTime?
+
+  certificates      Certificate[]
+  cases             Case[]
+  auditorAssignment AuditorAssignment?
+}
+
+model Certificate {
+  id          String   @id @default(cuid())
+  auditId     String
+  audit       Audit    @relation(fields: [auditId], references: [id])
+  userId      String
+  user        User     @relation(fields: [userId], references: [id])
+  frameworkId String
+  framework   Framework @relation(fields: [frameworkId], references: [id])
+  certNumber  String   @unique
+  startDate   DateTime
+  expireDate  DateTime
+  status      Status   @default(active)
+  createdAt   DateTime @default(now())
+}
+
+model Coupon {
+  id              String   @id @default(cuid())
+  code            String   @unique
+  discountPercent Int
+  maxUses         Int
+  usedCount       Int      @default(0)
+  expiryDate      DateTime
+  status          Status   @default(active)
+}
+
+model Case {
+  id              String   @id @default(cuid())
+  type            String
+  category        String
+  openedBy        String
+  opener          User     @relation("OpenedBy", fields: [openedBy], references: [id])
+  openedByRole    String
+  relatedAuditId  String?
+  audit           Audit?   @relation(fields: [relatedAuditId], references: [id])
+  description     String
+  attachments     String[]
+  status          CaseStatus @default(open)
+  adminNotes      String?
+  resolution      String?
+  createdAt       DateTime @default(now())
+  resolvedAt      DateTime?
+  resolvedBy      String?
+}
+
+model AuditorAssignment {
+  id          String   @id @default(cuid())
+  auditorId   String
+  auditor     User     @relation(fields: [auditorId], references: [id])
+  auditId     String   @unique
+  audit       Audit    @relation(fields: [auditId], references: [id])
+  assignedAt  DateTime @default(now())
+  status      String   @default(pending)
+  completedAt DateTime?
+}
+
+enum Role {
+  admin
+  regulator
+  supplier
+  auditor
+  enterprise
+}
+
+enum UserStatus {
+  active
+  inactive
+}
+
+enum Status {
+  active
+  inactive
+}
+
+enum AuditType {
+  single
+  unified
+}
+
+enum AuditStatus {
+  draft
+  evidence_uploaded
+  pending_review
+  in_review
+  completed
+}
+
+enum CaseStatus {
+  open
+  in_progress
+  resolved
+  closed
+}
