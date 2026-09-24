@@ -1,0 +1,37 @@
+import type { Metadata } from "next";
+import { Inter, Fraunces } from "next/font/google";
+import "./globals.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const fraunces = Fraunces({
+  subsets: ["latin"],
+  variable: "--font-fraunces",
+  display: "swap",
+});
+
+export const metadata: Metadata = {
+  title: "ComplyChains — AI-Powered Compliance Platform",
+  description: "Automate compliance and audit across saudi regulatory frameworks",
+  icons: {
+    icon: '/favicon.png',
+  },
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body className={`${inter.variable} ${fraunces.variable} font-sans antialiased`}>
+        {children}
+      </body>
+    </html>
+  );
+}

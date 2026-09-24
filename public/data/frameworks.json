@@ -1,0 +1,3006 @@
+{
+  "frameworks": [
+    {
+      "id": "nca-ecc",
+      "name": "NCA ECC",
+      "fullName": "Essential Cybersecurity Controls (ECC-2:2024)",
+      "regulator": "National Cybersecurity Authority (NCA)",
+      "regulatorId": "nca",
+      "version": "ECC-2:2024",
+      "description": "Saudi Arabia's minimum national cybersecurity requirements. Applies to government agencies, CNI operators, and private sector entities.",
+      "domains": [
+        {
+          "id": "d1",
+          "name": "Cybersecurity Governance",
+          "number": 1,
+          "subdomains": [
+            {
+              "id": "1-1",
+              "name": "Cybersecurity Strategy",
+              "controls": [
+                {
+                  "id": "1-1-1",
+                  "title": "Cybersecurity strategy defined and approved",
+                  "description": "A comprehensive cybersecurity strategy is documented, approved by leadership, and aligned with organizational objectives.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "1-1-2",
+                  "title": "Strategy review and update cycle",
+                  "description": "The cybersecurity strategy is reviewed and updated at least annually or upon significant changes.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                },
+                {
+                  "id": "1-1-3",
+                  "title": "Cybersecurity objectives and KPIs",
+                  "description": "Measurable cybersecurity objectives and KPIs are defined and tracked.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                }
+              ]
+            },
+            {
+              "id": "1-2",
+              "name": "Cybersecurity Management",
+              "controls": [
+                {
+                  "id": "1-2-1",
+                  "title": "Independent cybersecurity function",
+                  "description": "A cybersecurity function is established independently of IT, with defined authority and resources.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "1-2-2",
+                  "title": "Cybersecurity committee",
+                  "description": "A cybersecurity steering committee meets regularly with documented minutes and decisions.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "1-2-3",
+                  "title": "Cybersecurity budget allocation",
+                  "description": "Adequate budget is allocated and tracked for cybersecurity initiatives.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                },
+                {
+                  "id": "1-2-4",
+                  "title": "Cybersecurity reporting lines",
+                  "description": "The cybersecurity function reports directly to executive leadership or the board.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            },
+            {
+              "id": "1-3",
+              "name": "Cybersecurity Policies and Procedures",
+              "controls": [
+                {
+                  "id": "1-3-1",
+                  "title": "Master cybersecurity policy",
+                  "description": "A master cybersecurity policy is approved, communicated, and enforced across the organization.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "1-3-2",
+                  "title": "Procedures and standards",
+                  "description": "Supporting procedures, standards, and guidelines are documented and maintained.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "1-3-3",
+                  "title": "Policy exception process",
+                  "description": "A formal process exists for requesting, approving, and documenting policy exceptions.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                },
+                {
+                  "id": "1-3-4",
+                  "title": "Policy communication and awareness",
+                  "description": "Policies are communicated to all relevant personnel and acknowledged.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                },
+                {
+                  "id": "1-3-5",
+                  "title": "Policy enforcement",
+                  "description": "Violations of cybersecurity policies are addressed through disciplinary action.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                }
+              ]
+            },
+            {
+              "id": "1-4",
+              "name": "Cybersecurity Roles and Responsibilities",
+              "controls": [
+                {
+                  "id": "1-4-1",
+                  "title": "CISO appointment",
+                  "description": "A Chief Information Security Officer (CISO) or equivalent is appointed with clear responsibilities.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "1-4-2",
+                  "title": "Role definitions",
+                  "description": "Cybersecurity roles and responsibilities are defined, documented, and assigned.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "1-4-3",
+                  "title": "Saudization compliance",
+                  "description": "Cybersecurity roles are filled by qualified Saudi nationals per ECC-2:2024 requirements.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                }
+              ]
+            },
+            {
+              "id": "1-5",
+              "name": "Cybersecurity Risk Management",
+              "controls": [
+                {
+                  "id": "1-5-1",
+                  "title": "Risk management framework",
+                  "description": "A cybersecurity risk management methodology is established and aligned with organizational risk appetite.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "1-5-2",
+                  "title": "Risk assessment execution",
+                  "description": "Risk assessments are performed at least annually and upon significant changes.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "1-5-3",
+                  "title": "Risk treatment plan",
+                  "description": "Identified risks have documented treatment plans with owners and target dates.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "1-5-4",
+                  "title": "Risk register maintenance",
+                  "description": "A risk register is maintained with current risk scores and status.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                },
+                {
+                  "id": "1-5-5",
+                  "title": "Risk appetite statement",
+                  "description": "A cybersecurity risk appetite statement is defined and approved.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                }
+              ]
+            },
+            {
+              "id": "1-6",
+              "name": "Cybersecurity in IT Project Management",
+              "controls": [
+                {
+                  "id": "1-6-1",
+                  "title": "Security by design",
+                  "description": "Cybersecurity requirements are integrated into project and change management lifecycles.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "1-6-2",
+                  "title": "Security review gates",
+                  "description": "Security reviews are conducted at key project milestones before go-live.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            },
+            {
+              "id": "1-7",
+              "name": "Compliance with Standards, Laws and Regulations",
+              "controls": [
+                {
+                  "id": "1-7-1",
+                  "title": "Regulatory inventory",
+                  "description": "Applicable cybersecurity laws, regulations, and standards are identified and tracked.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "1-7-2",
+                  "title": "Compliance monitoring",
+                  "description": "Compliance status is monitored and reported regularly.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            },
+            {
+              "id": "1-8",
+              "name": "Periodical Cybersecurity Review and Audit",
+              "controls": [
+                {
+                  "id": "1-8-1",
+                  "title": "Internal audit program",
+                  "description": "A cybersecurity internal audit program is established with defined scope and frequency.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "1-8-2",
+                  "title": "Audit remediation tracking",
+                  "description": "Audit findings are tracked to closure with evidence of remediation.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "1-8-3",
+                  "title": "Management review",
+                  "description": "Management reviews cybersecurity performance at planned intervals.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                }
+              ]
+            },
+            {
+              "id": "1-9",
+              "name": "Cybersecurity in Human Resources",
+              "controls": [
+                {
+                  "id": "1-9-1",
+                  "title": "Background screening",
+                  "description": "Background checks are conducted for personnel in sensitive cybersecurity roles.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "1-9-2",
+                  "title": "Security in employment terms",
+                  "description": "Cybersecurity responsibilities are included in employment contracts and terms.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                },
+                {
+                  "id": "1-9-3",
+                  "title": "Secure offboarding",
+                  "description": "A process exists for revoking access and recovering assets upon termination.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            },
+            {
+              "id": "1-10",
+              "name": "Cybersecurity Awareness and Training Program",
+              "controls": [
+                {
+                  "id": "1-10-1",
+                  "title": "Awareness program",
+                  "description": "A cybersecurity awareness program covers all personnel including contractors and third parties.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "1-10-2",
+                  "title": "Role-based training",
+                  "description": "Specialized training is provided based on roles and responsibilities.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "1-10-3",
+                  "title": "Training effectiveness measurement",
+                  "description": "Training effectiveness is measured and improvements are implemented.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                },
+                {
+                  "id": "1-10-4",
+                  "title": "Phishing simulations",
+                  "description": "Regular phishing simulation exercises are conducted with metrics tracked.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d2",
+          "name": "Cybersecurity Defense",
+          "number": 2,
+          "subdomains": [
+            {
+              "id": "2-1",
+              "name": "Asset Management",
+              "controls": [
+                {
+                  "id": "2-1-1",
+                  "title": "Asset inventory",
+                  "description": "An accurate inventory of all information assets is maintained with ownership and classification.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "2-1-2",
+                  "title": "Asset classification",
+                  "description": "Assets are classified based on confidentiality, integrity, and availability requirements.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-1-3",
+                  "title": "Asset labeling",
+                  "description": "Assets are labeled according to their classification level.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                },
+                {
+                  "id": "2-1-4",
+                  "title": "Asset ownership",
+                  "description": "All assets have defined owners responsible for their security.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                }
+              ]
+            },
+            {
+              "id": "2-2",
+              "name": "Identity and Access Management",
+              "controls": [
+                {
+                  "id": "2-2-1",
+                  "title": "Unique user IDs",
+                  "description": "Unique user IDs are assigned; shared accounts are prohibited except where justified and approved.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "2-2-2",
+                  "title": "Access control policy",
+                  "description": "An access control policy defines principles of least privilege and need-to-know.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "2-2-3",
+                  "title": "Multi-factor authentication",
+                  "description": "MFA is enforced for all remote access and privileged accounts, and encouraged for all users.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "2-2-4",
+                  "title": "Privileged access management",
+                  "description": "Privileged accounts are managed with enhanced controls, monitoring, and justification.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "2-2-5",
+                  "title": "Periodic access reviews",
+                  "description": "User access rights are reviewed at least quarterly and upon role changes.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-2-6",
+                  "title": "Service account management",
+                  "description": "Service accounts are managed with restricted privileges and regular credential rotation.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-2-7",
+                  "title": "Password policy",
+                  "description": "A strong password policy is enforced across all systems.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            },
+            {
+              "id": "2-3",
+              "name": "Information Systems and Processing Facilities Protection",
+              "controls": [
+                {
+                  "id": "2-3-1",
+                  "title": "Secure configuration",
+                  "description": "Systems are hardened using vendor and industry secure configuration baselines.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-3-2",
+                  "title": "Patch management",
+                  "description": "A patch management process ensures timely application of security updates.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "2-3-3",
+                  "title": "Malware protection",
+                  "description": "Anti-malware solutions are deployed, updated, and monitored across all endpoints.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-3-4",
+                  "title": "Change management",
+                  "description": "Changes to systems are managed through a formal change control process.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-3-5",
+                  "title": "Secure disposal",
+                  "description": "Systems and data are securely disposed of when no longer needed.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                }
+              ]
+            },
+            {
+              "id": "2-4",
+              "name": "Email Protection",
+              "controls": [
+                {
+                  "id": "2-4-1",
+                  "title": "Email security gateway",
+                  "description": "An email security gateway filters spam, malware, and phishing at the perimeter.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-4-2",
+                  "title": "Email encryption",
+                  "description": "Sensitive emails are encrypted in transit and at rest.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                },
+                {
+                  "id": "2-4-3",
+                  "title": "DMARC/SPF/DKIM",
+                  "description": "Email authentication protocols (SPF, DKIM, DMARC) are implemented and monitored.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            },
+            {
+              "id": "2-5",
+              "name": "Network Security Management",
+              "controls": [
+                {
+                  "id": "2-5-1",
+                  "title": "Network segmentation",
+                  "description": "Networks are segmented to isolate critical systems and limit lateral movement.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "2-5-2",
+                  "title": "Firewall management",
+                  "description": "Firewalls are configured with deny-by-default rules and reviewed regularly.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-5-3",
+                  "title": "Intrusion detection/prevention",
+                  "description": "IDS/IPS systems are deployed and monitored with alert response procedures.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-5-4",
+                  "title": "Network monitoring",
+                  "description": "Network traffic is monitored for anomalies and security events.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-5-5",
+                  "title": "Remote access security",
+                  "description": "Remote access is secured with VPN, MFA, and session timeouts.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-5-6",
+                  "title": "Wireless security",
+                  "description": "Wireless networks are secured with WPA3 or equivalent and segregated.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                }
+              ]
+            },
+            {
+              "id": "2-6",
+              "name": "Mobile Devices Security",
+              "controls": [
+                {
+                  "id": "2-6-1",
+                  "title": "Mobile device policy",
+                  "description": "A mobile device security policy covers BYOD and corporate devices.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-6-2",
+                  "title": "Mobile device management",
+                  "description": "MDM/EMM solutions enforce security policies on mobile devices.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-6-3",
+                  "title": "Remote wipe capability",
+                  "description": "Remote wipe and lock capabilities are enabled for lost or stolen devices.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                }
+              ]
+            },
+            {
+              "id": "2-7",
+              "name": "Data and Information Protection",
+              "controls": [
+                {
+                  "id": "2-7-1",
+                  "title": "Data classification scheme",
+                  "description": "A data classification scheme is implemented with handling requirements per level.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "2-7-2",
+                  "title": "Data handling procedures",
+                  "description": "Procedures define how data is created, processed, stored, transmitted, and destroyed.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-7-3",
+                  "title": "Data loss prevention",
+                  "description": "DLP controls are implemented to prevent unauthorized data exfiltration.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-7-4",
+                  "title": "Database security",
+                  "description": "Databases are secured with access controls, encryption, and activity monitoring.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-7-5",
+                  "title": "Data retention policy",
+                  "description": "Data retention and disposal schedules are defined and enforced.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                }
+              ]
+            },
+            {
+              "id": "2-8",
+              "name": "Cryptography",
+              "controls": [
+                {
+                  "id": "2-8-1",
+                  "title": "Cryptographic policy",
+                  "description": "A cryptographic policy defines approved algorithms, key lengths, and key management.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-8-2",
+                  "title": "Encryption in transit",
+                  "description": "Sensitive data is encrypted in transit using TLS 1.2 or higher.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "2-8-3",
+                  "title": "Encryption at rest",
+                  "description": "Sensitive data is encrypted at rest on servers, databases, and storage.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "2-8-4",
+                  "title": "Key management",
+                  "description": "Cryptographic keys are managed securely throughout their lifecycle.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                }
+              ]
+            },
+            {
+              "id": "2-9",
+              "name": "Backup and Recovery Management",
+              "controls": [
+                {
+                  "id": "2-9-1",
+                  "title": "Backup policy and schedule",
+                  "description": "Backups are performed per defined schedules with retention requirements.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-9-2",
+                  "title": "Backup testing",
+                  "description": "Backup restoration is tested at least annually with documented results.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "2-9-3",
+                  "title": "Offsite/offline backups",
+                  "description": "Critical backups are stored offsite or offline protected from ransomware.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "2-9-4",
+                  "title": "Backup encryption",
+                  "description": "Backups are encrypted to protect confidentiality.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                },
+                {
+                  "id": "2-9-5",
+                  "title": "Backup monitoring",
+                  "description": "Backup jobs are monitored for failures with alerting.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                }
+              ]
+            },
+            {
+              "id": "2-10",
+              "name": "Vulnerability Management",
+              "controls": [
+                {
+                  "id": "2-10-1",
+                  "title": "Vulnerability scanning",
+                  "description": "Vulnerability scans are conducted at least monthly across all systems.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "2-10-2",
+                  "title": "Remediation timelines",
+                  "description": "Critical vulnerabilities are remediated within defined SLAs (e.g., 15 days).",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "2-10-3",
+                  "title": "Vulnerability tracking",
+                  "description": "Vulnerabilities are tracked in a central register until closure.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-10-4",
+                  "title": "Penetration test coordination",
+                  "description": "Vulnerability findings are validated and prioritized with penetration testing where needed.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                }
+              ]
+            },
+            {
+              "id": "2-11",
+              "name": "Penetration Testing",
+              "controls": [
+                {
+                  "id": "2-11-1",
+                  "title": "Penetration test program",
+                  "description": "Penetration tests are conducted at least annually by qualified independent testers.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "2-11-2",
+                  "title": "Remediation of findings",
+                  "description": "Penetration test findings are remediated and verified.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-11-3",
+                  "title": "Scope coverage",
+                  "description": "Tests cover external and internal networks, web applications, and wireless.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            },
+            {
+              "id": "2-12",
+              "name": "Cybersecurity Event Logs and Monitoring Management",
+              "controls": [
+                {
+                  "id": "2-12-1",
+                  "title": "Logging scope",
+                  "description": "Security-relevant events are logged across systems, networks, and applications.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-12-2",
+                  "title": "Log protection",
+                  "description": "Logs are protected from tampering and unauthorized modification.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "2-12-3",
+                  "title": "Centralized log management",
+                  "description": "Logs are aggregated to a centralized SIEM or log management platform.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-12-4",
+                  "title": "Log review",
+                  "description": "Logs are reviewed regularly with automated alerting for critical events.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-12-5",
+                  "title": "Log retention",
+                  "description": "Logs are retained per regulatory and operational requirements.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                }
+              ]
+            },
+            {
+              "id": "2-13",
+              "name": "Cybersecurity Incident and Threat Management",
+              "controls": [
+                {
+                  "id": "2-13-1",
+                  "title": "Incident response plan",
+                  "description": "A documented incident response plan defines roles, procedures, and escalation paths.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "2-13-2",
+                  "title": "Incident response team",
+                  "description": "An incident response team is designated and trained.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-13-3",
+                  "title": "Incident reporting to NCA",
+                  "description": "Cybersecurity incidents are reported to NCA per regulatory requirements.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "2-13-4",
+                  "title": "Incident exercises",
+                  "description": "Tabletop and simulation exercises are conducted at least annually.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-13-5",
+                  "title": "Threat intelligence integration",
+                  "description": "Threat intelligence is integrated into incident detection and response.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                }
+              ]
+            },
+            {
+              "id": "2-14",
+              "name": "Physical Security",
+              "controls": [
+                {
+                  "id": "2-14-1",
+                  "title": "Physical access controls",
+                  "description": "Physical access to facilities and critical areas is controlled and monitored.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-14-2",
+                  "title": "Environmental controls",
+                  "description": "Environmental controls protect equipment from fire, flood, and power issues.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                },
+                {
+                  "id": "2-14-3",
+                  "title": "Equipment disposal",
+                  "description": "Media and equipment are securely disposed of when no longer needed.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                }
+              ]
+            },
+            {
+              "id": "2-15",
+              "name": "Web Application Security",
+              "controls": [
+                {
+                  "id": "2-15-1",
+                  "title": "Secure development lifecycle",
+                  "description": "Security is integrated into the software development lifecycle (SDLC).",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-15-2",
+                  "title": "Input validation",
+                  "description": "Applications validate and sanitize all inputs to prevent injection attacks.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "2-15-3",
+                  "title": "Authentication and session management",
+                  "description": "Applications implement secure authentication and session management.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d3",
+          "name": "Cybersecurity Resilience",
+          "number": 3,
+          "subdomains": [
+            {
+              "id": "3-1",
+              "name": "Cybersecurity Resilience Aspects of BCM",
+              "controls": [
+                {
+                  "id": "3-1-1",
+                  "title": "BCP/DR plan for cyber",
+                  "description": "Business continuity and disaster recovery plans account for cyber incidents.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "3-1-2",
+                  "title": "Recovery objectives",
+                  "description": "RTO and RPO are defined for critical systems and documented.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "3-1-3",
+                  "title": "Plan testing",
+                  "description": "BCP/DR plans are tested at least annually with documented results.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "3-1-4",
+                  "title": "Crisis communication",
+                  "description": "Crisis communication procedures are established for cyber incidents.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                },
+                {
+                  "id": "3-1-5",
+                  "title": "Backup site readiness",
+                  "description": "Alternate processing sites are maintained and tested for readiness.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "d4",
+          "name": "Third-Party and Cloud Computing Cybersecurity",
+          "number": 4,
+          "subdomains": [
+            {
+              "id": "4-1",
+              "name": "Third-Party Cybersecurity",
+              "controls": [
+                {
+                  "id": "4-1-1",
+                  "title": "Vendor inventory",
+                  "description": "An inventory of third-party vendors with system/data access is maintained.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "4-1-2",
+                  "title": "Vendor risk assessment",
+                  "description": "Security assessments are performed before onboarding critical vendors.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "4-1-3",
+                  "title": "Contractual security requirements",
+                  "description": "Cybersecurity and confidentiality clauses are included in vendor contracts.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "4-1-4",
+                  "title": "Ongoing vendor monitoring",
+                  "description": "Critical vendors are monitored continuously for security posture changes.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "4-1-5",
+                  "title": "Vendor incident notification",
+                  "description": "Contracts require vendors to notify of security incidents within defined timeframes.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                }
+              ]
+            },
+            {
+              "id": "4-2",
+              "name": "Cloud Computing and Hosting Cybersecurity",
+              "controls": [
+                {
+                  "id": "4-2-1",
+                  "title": "Cloud security policy",
+                  "description": "A cloud security policy defines approved services, data classifications, and responsibilities.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "4-2-2",
+                  "title": "Shared responsibility clarity",
+                  "description": "Cloud shared responsibility model is documented and understood.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "4-2-3",
+                  "title": "Cloud configuration security",
+                  "description": "Cloud environments are configured securely with regular posture assessments.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "4-2-4",
+                  "title": "Data residency and return",
+                  "description": "Cloud data residency requirements are met with data return arrangements (CCC-2:2024).",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "4-2-5",
+                  "title": "Cloud exit strategy",
+                  "description": "A cloud exit strategy ensures business continuity if changing providers.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "totalControls": 114
+    },
+    {
+      "id": "sama-csf",
+      "name": "SAMA CSF",
+      "fullName": "SAMA Cyber Security Framework",
+      "regulator": "Saudi Central Bank (SAMA)",
+      "regulatorId": "sama",
+      "version": "3.0",
+      "description": "Cybersecurity framework for the financial sector regulated by SAMA, covering governance, risk management, and technical controls.",
+      "domains": [
+        {
+          "id": "sama-d1",
+          "name": "Cyber Security Governance and Strategy",
+          "subdomains": [
+            {
+              "id": "sama-1-1",
+              "name": "Governance",
+              "controls": [
+                {
+                  "id": "sama-1-1-1",
+                  "title": "Cybersecurity governance framework",
+                  "description": "A governance framework defines cybersecurity roles, responsibilities, and oversight.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "sama-1-1-2",
+                  "title": "Board oversight",
+                  "description": "The board or equivalent body oversees cybersecurity strategy and risk.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                }
+              ]
+            },
+            {
+              "id": "sama-1-2",
+              "name": "Strategy",
+              "controls": [
+                {
+                  "id": "sama-1-2-1",
+                  "title": "Cybersecurity strategy and roadmap",
+                  "description": "A cybersecurity strategy is aligned with business objectives and risk appetite.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "sama-1-2-2",
+                  "title": "Cybersecurity risk appetite",
+                  "description": "Cybersecurity risk appetite is defined and approved by the board.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            },
+            {
+              "id": "sama-1-3",
+              "name": "Policies and Procedures",
+              "controls": [
+                {
+                  "id": "sama-1-3-1",
+                  "title": "Cybersecurity policies",
+                  "description": "Comprehensive cybersecurity policies are approved and communicated.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "sama-1-3-2",
+                  "title": "Policy review cycle",
+                  "description": "Policies are reviewed at least annually and upon significant changes.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sama-d2",
+          "name": "Cyber Security Risk Management",
+          "subdomains": [
+            {
+              "id": "sama-2-1",
+              "name": "Risk Assessment",
+              "controls": [
+                {
+                  "id": "sama-2-1-1",
+                  "title": "Risk assessment program",
+                  "description": "Systematic risk assessments identify and evaluate cybersecurity risks.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "sama-2-1-2",
+                  "title": "Threat intelligence integration",
+                  "description": "Threat intelligence informs risk assessments and prioritization.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            },
+            {
+              "id": "sama-2-2",
+              "name": "Risk Treatment",
+              "controls": [
+                {
+                  "id": "sama-2-2-1",
+                  "title": "Risk treatment and acceptance",
+                  "description": "Risks are treated or formally accepted with board approval.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "sama-2-2-2",
+                  "title": "Residual risk reporting",
+                  "description": "Residual risks are reported to the board with treatment plans.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sama-d3",
+          "name": "Cyber Security Operations and Technology",
+          "subdomains": [
+            {
+              "id": "sama-3-1",
+              "name": "Operations",
+              "controls": [
+                {
+                  "id": "sama-3-1-1",
+                  "title": "Security operations center",
+                  "description": "A SOC monitors, detects, and responds to security events 24/7.",
+                  "evidenceType": [
+                    "screenshot",
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "sama-3-1-2",
+                  "title": "Security monitoring and alerting",
+                  "description": "Security events are monitored with automated alerting and escalation.",
+                  "evidenceType": [
+                    "screenshot"
+                  ],
+                  "weight": 4
+                }
+              ]
+            },
+            {
+              "id": "sama-3-2",
+              "name": "Technology",
+              "controls": [
+                {
+                  "id": "sama-3-2-1",
+                  "title": "Secure architecture",
+                  "description": "Security architecture principles are applied to technology decisions.",
+                  "evidenceType": [
+                    "document",
+                    "diagram"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "sama-3-2-2",
+                  "title": "Secure configuration management",
+                  "description": "Systems are hardened and configurations are baselined and monitored.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sama-d4",
+          "name": "Third Party Cyber Security",
+          "subdomains": [
+            {
+              "id": "sama-4-1",
+              "name": "Outsourcing",
+              "controls": [
+                {
+                  "id": "sama-4-1-1",
+                  "title": "Third party risk management",
+                  "description": "Third parties are assessed for cybersecurity risk before engagement.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "sama-4-1-2",
+                  "title": "Outsourcing security requirements",
+                  "description": "Security requirements are included in outsourcing contracts.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            },
+            {
+              "id": "sama-4-2",
+              "name": "Cloud Services",
+              "controls": [
+                {
+                  "id": "sama-4-2-1",
+                  "title": "Cloud risk assessment",
+                  "description": "Cloud services are risk-assessed before adoption.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "sama-4-2-2",
+                  "title": "Cloud security monitoring",
+                  "description": "Cloud environments are monitored for security misconfigurations.",
+                  "evidenceType": [
+                    "screenshot"
+                  ],
+                  "weight": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sama-d5",
+          "name": "Cyber Security Incident Management",
+          "subdomains": [
+            {
+              "id": "sama-5-1",
+              "name": "Detection and Reporting",
+              "controls": [
+                {
+                  "id": "sama-5-1-1",
+                  "title": "Incident detection and reporting to SAMA",
+                  "description": "Incidents are detected and reported to SAMA within defined timeframes (critical: 1 hour, high: 6 hours).",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "sama-5-1-2",
+                  "title": "Incident classification",
+                  "description": "Incidents are classified by severity with defined response procedures.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            },
+            {
+              "id": "sama-5-2",
+              "name": "Response and Recovery",
+              "controls": [
+                {
+                  "id": "sama-5-2-1",
+                  "title": "Incident response capabilities",
+                  "description": "Response capabilities include containment, eradication, and recovery procedures.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "sama-5-2-2",
+                  "title": "Post-incident review",
+                  "description": "Post-incident reviews identify lessons learned and drive improvements.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sama-d6",
+          "name": "Cyber Security Resilience",
+          "subdomains": [
+            {
+              "id": "sama-6-1",
+              "name": "Business Continuity",
+              "controls": [
+                {
+                  "id": "sama-6-1-1",
+                  "title": "Cyber resilience testing",
+                  "description": "Cyber resilience is tested through exercises and simulations at least annually.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "sama-6-1-2",
+                  "title": "Recovery time objectives",
+                  "description": "RTOs and RPOs are defined and tested for critical business functions.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "totalControls": 24,
+      "mappings": {
+        "nca-ecc": [
+          "1-1",
+          "1-2",
+          "1-3",
+          "1-4",
+          "1-5",
+          "1-8",
+          "2-1",
+          "2-2",
+          "2-5",
+          "2-7",
+          "2-8",
+          "2-9",
+          "2-10",
+          "2-12",
+          "2-13",
+          "3-1",
+          "4-1",
+          "4-2"
+        ]
+      }
+    },
+    {
+      "id": "pdpl",
+      "name": "PDPL",
+      "fullName": "Personal Data Protection Law",
+      "regulator": "Saudi Data & AI Authority (SDAIA)",
+      "regulatorId": "sdaia",
+      "version": "2023",
+      "description": "Saudi Arabia's comprehensive data protection law governing collection, processing, and transfer of personal data.",
+      "domains": [
+        {
+          "id": "pdpl-d1",
+          "name": "General Provisions and Principles",
+          "subdomains": [
+            {
+              "id": "pdpl-1-1",
+              "name": "Lawfulness and Fairness",
+              "controls": [
+                {
+                  "id": "pdpl-1-1-1",
+                  "title": "Lawful basis for processing",
+                  "description": "Personal data is processed only with a valid legal basis (consent, contract, legal obligation, vital interests, public interest, legitimate interest).",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "pdpl-1-1-2",
+                  "title": "Fair and transparent processing",
+                  "description": "Processing is conducted fairly and transparently with clear privacy notices.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            },
+            {
+              "id": "pdpl-1-2",
+              "name": "Purpose Limitation",
+              "controls": [
+                {
+                  "id": "pdpl-1-2-1",
+                  "title": "Specified and legitimate purposes",
+                  "description": "Data is collected for specified, explicit, and legitimate purposes only.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "pdpl-1-2-2",
+                  "title": "No further incompatible processing",
+                  "description": "Data is not processed in a manner incompatible with the original purpose.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            },
+            {
+              "id": "pdpl-1-3",
+              "name": "Data Minimization",
+              "controls": [
+                {
+                  "id": "pdpl-1-3-1",
+                  "title": "Adequate, relevant, and limited data",
+                  "description": "Only data adequate, relevant, and limited to what is necessary is processed.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            },
+            {
+              "id": "pdpl-1-4",
+              "name": "Accuracy",
+              "controls": [
+                {
+                  "id": "pdpl-1-4-1",
+                  "title": "Data accuracy maintenance",
+                  "description": "Personal data is kept accurate and up to date.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            },
+            {
+              "id": "pdpl-1-5",
+              "name": "Storage Limitation",
+              "controls": [
+                {
+                  "id": "pdpl-1-5-1",
+                  "title": "Retention periods",
+                  "description": "Data is retained only as long as necessary for the processing purpose.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pdpl-d2",
+          "name": "Data Subject Rights",
+          "subdomains": [
+            {
+              "id": "pdpl-2-1",
+              "name": "Right to Access",
+              "controls": [
+                {
+                  "id": "pdpl-2-1-1",
+                  "title": "Access request process",
+                  "description": "A process exists for data subjects to access their personal data within 30 days.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "pdpl-2-1-2",
+                  "title": "Access request tracking",
+                  "description": "Access requests are tracked and responded to within statutory timeframes.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                }
+              ]
+            },
+            {
+              "id": "pdpl-2-2",
+              "name": "Right to Rectification",
+              "controls": [
+                {
+                  "id": "pdpl-2-2-1",
+                  "title": "Rectification process",
+                  "description": "Data subjects can request correction of inaccurate or incomplete data.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            },
+            {
+              "id": "pdpl-2-3",
+              "name": "Right to Erasure",
+              "controls": [
+                {
+                  "id": "pdpl-2-3-1",
+                  "title": "Erasure process",
+                  "description": "Data subjects can request deletion of their data when processing is no longer necessary.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            },
+            {
+              "id": "pdpl-2-4",
+              "name": "Right to Object and Restrict",
+              "controls": [
+                {
+                  "id": "pdpl-2-4-1",
+                  "title": "Objection handling",
+                  "description": "Data subjects can object to processing based on legitimate interests or direct marketing.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "pdpl-2-4-2",
+                  "title": "Restriction of processing",
+                  "description": "Processing can be restricted upon data subject request in defined circumstances.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                }
+              ]
+            },
+            {
+              "id": "pdpl-2-5",
+              "name": "Right to Data Portability",
+              "controls": [
+                {
+                  "id": "pdpl-2-5-1",
+                  "title": "Data portability mechanism",
+                  "description": "Data subjects can receive their data in a structured, commonly used format.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pdpl-d3",
+          "name": "Controller and Processor Obligations",
+          "subdomains": [
+            {
+              "id": "pdpl-3-1",
+              "name": "Accountability",
+              "controls": [
+                {
+                  "id": "pdpl-3-1-1",
+                  "title": "DPO appointment",
+                  "description": "A Data Protection Officer is appointed where required by law.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "pdpl-3-1-2",
+                  "title": "Privacy by design",
+                  "description": "Data protection is integrated into processing activities by design and default.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            },
+            {
+              "id": "pdpl-3-2",
+              "name": "Data Protection Impact Assessment",
+              "controls": [
+                {
+                  "id": "pdpl-3-2-1",
+                  "title": "DPIA process",
+                  "description": "DPIAs are conducted for high-risk processing activities.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "pdpl-3-2-2",
+                  "title": "DPIA review",
+                  "description": "DPIAs are reviewed and updated when processing changes.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                }
+              ]
+            },
+            {
+              "id": "pdpl-3-3",
+              "name": "Records of Processing",
+              "controls": [
+                {
+                  "id": "pdpl-3-3-1",
+                  "title": "ROPA maintenance",
+                  "description": "Records of processing activities (ROPA) are maintained and available to SDAIA.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            },
+            {
+              "id": "pdpl-3-4",
+              "name": "Data Breach Notification",
+              "controls": [
+                {
+                  "id": "pdpl-3-4-1",
+                  "title": "Breach notification to SDAIA",
+                  "description": "Data breaches are notified to SDAIA within 72 hours of discovery.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "pdpl-3-4-2",
+                  "title": "Data subject notification",
+                  "description": "Affected data subjects are notified of high-risk breaches without undue delay.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            },
+            {
+              "id": "pdpl-3-5",
+              "name": "Cross-Border Transfers",
+              "controls": [
+                {
+                  "id": "pdpl-3-5-1",
+                  "title": "Transfer safeguards",
+                  "description": "Cross-border data transfers use approved safeguards (adequacy decisions, SCCs, BCRs).",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "pdpl-3-5-2",
+                  "title": "Transfer impact assessment",
+                  "description": "Transfer impact assessments are conducted for cross-border transfers.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pdpl-d4",
+          "name": "Security of Processing",
+          "subdomains": [
+            {
+              "id": "pdpl-4-1",
+              "name": "Technical and Organizational Measures",
+              "controls": [
+                {
+                  "id": "pdpl-4-1-1",
+                  "title": "TOMs implementation",
+                  "description": "Appropriate technical and organizational measures protect personal data.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "pdpl-4-1-2",
+                  "title": "Security policy for personal data",
+                  "description": "A security policy specifically addresses personal data protection.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            },
+            {
+              "id": "pdpl-4-2",
+              "name": "Encryption and Pseudonymization",
+              "controls": [
+                {
+                  "id": "pdpl-4-2-1",
+                  "title": "Encryption of personal data",
+                  "description": "Personal data is encrypted at rest and in transit.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "pdpl-4-2-2",
+                  "title": "Pseudonymization where appropriate",
+                  "description": "Pseudonymization is used where appropriate to reduce risk.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 3
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "totalControls": 28,
+      "mappings": {
+        "iso27001": [
+          "5.34",
+          "5.35",
+          "5.36",
+          "8.1",
+          "8.2",
+          "8.3",
+          "8.4",
+          "8.5",
+          "8.6",
+          "8.7",
+          "8.8",
+          "8.9",
+          "8.10",
+          "8.11"
+        ],
+        "nca-ecc": [
+          "2-7",
+          "2-8",
+          "4-1",
+          "4-2"
+        ]
+      }
+    },
+    {
+      "id": "iso27001",
+      "name": "ISO 27001",
+      "fullName": "ISO/IEC 27001:2022",
+      "regulator": "International Organization for Standardization",
+      "regulatorId": "iso",
+      "version": "2022",
+      "description": "International standard for information security management systems (ISMS) with 93 controls organized in 4 domains.",
+      "domains": [
+        {
+          "id": "iso-d1",
+          "name": "Organizational Controls (A.5)",
+          "subdomains": [
+            {
+              "id": "iso-5",
+              "name": "Organizational Controls",
+              "controls": [
+                {
+                  "id": "iso-5-1",
+                  "title": "Policies for information security",
+                  "description": "Information security policies are defined, approved, and communicated.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "iso-5-2",
+                  "title": "Information security roles and responsibilities",
+                  "description": "Roles and responsibilities for information security are defined and allocated.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "iso-5-7",
+                  "title": "Threat intelligence",
+                  "description": "Information relating to threat intelligence is collected and analyzed.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                },
+                {
+                  "id": "iso-5-9",
+                  "title": "Inventory of information and other associated assets",
+                  "description": "An inventory of information and assets is developed and maintained.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "iso-5-12",
+                  "title": "Classification of information",
+                  "description": "Information is classified according to protection needs.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "iso-5-15",
+                  "title": "Access control",
+                  "description": "Access to information and assets is controlled.",
+                  "evidenceType": [
+                    "document",
+                    "config"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "iso-5-16",
+                  "title": "Identity management",
+                  "description": "Identity lifecycle is managed securely.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "iso-5-18",
+                  "title": "Access rights",
+                  "description": "Access rights are provisioned, reviewed, and removed.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "iso-5-19",
+                  "title": "Information security in supplier relationships",
+                  "description": "Security requirements are addressed with suppliers.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "iso-5-23",
+                  "title": "Information security for use of cloud services",
+                  "description": "Security requirements for cloud services are defined and managed.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "iso-5-24",
+                  "title": "Planning and preparation for information security continuity",
+                  "description": "Continuity of information security is planned.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "iso-5-34",
+                  "title": "Privacy and protection of PII",
+                  "description": "PII is protected per legal and regulatory requirements.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "iso-5-35",
+                  "title": "Independent review of information security",
+                  "description": "Information security is reviewed independently at planned intervals.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "iso-5-36",
+                  "title": "Compliance with policies, rules and standards",
+                  "description": "Compliance with security policies is monitored.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "iso-d2",
+          "name": "People Controls (A.6)",
+          "subdomains": [
+            {
+              "id": "iso-6",
+              "name": "People Controls",
+              "controls": [
+                {
+                  "id": "iso-6-1",
+                  "title": "Screening",
+                  "description": "Background verification checks are conducted.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                },
+                {
+                  "id": "iso-6-2",
+                  "title": "Terms and conditions of employment",
+                  "description": "Security responsibilities are included in employment terms.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                },
+                {
+                  "id": "iso-6-3",
+                  "title": "Information security awareness, education and training",
+                  "description": "Personnel receive security awareness and training.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "iso-6-6",
+                  "title": "Confidentiality or non-disclosure agreements",
+                  "description": "NDAs are in place with personnel and contractors.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                },
+                {
+                  "id": "iso-6-8",
+                  "title": "Information security event reporting",
+                  "description": "Personnel report security events through defined channels.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "iso-d3",
+          "name": "Physical Controls (A.7)",
+          "subdomains": [
+            {
+              "id": "iso-7",
+              "name": "Physical Controls",
+              "controls": [
+                {
+                  "id": "iso-7-1",
+                  "title": "Physical security perimeters",
+                  "description": "Security perimeters protect sensitive areas.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "iso-7-2",
+                  "title": "Physical entry controls",
+                  "description": "Physical entry is controlled and monitored.",
+                  "evidenceType": [
+                    "screenshot"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "iso-7-5",
+                  "title": "Protecting against physical and environmental threats",
+                  "description": "Protection against fire, flood, and other threats is implemented.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                },
+                {
+                  "id": "iso-7-8",
+                  "title": "Equipment siting and protection",
+                  "description": "Equipment is sited and protected to reduce risks.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                },
+                {
+                  "id": "iso-7-10",
+                  "title": "Storage media",
+                  "description": "Storage media is managed securely throughout its lifecycle.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                },
+                {
+                  "id": "iso-7-14",
+                  "title": "Equipment disposal",
+                  "description": "Equipment containing data is securely disposed of.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "iso-d4",
+          "name": "Technological Controls (A.8)",
+          "subdomains": [
+            {
+              "id": "iso-8",
+              "name": "Technological Controls",
+              "controls": [
+                {
+                  "id": "iso-8-1",
+                  "title": "User endpoint devices",
+                  "description": "Endpoint devices are secured and monitored.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "iso-8-2",
+                  "title": "Privileged access rights",
+                  "description": "Privileged access is restricted and monitored.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "iso-8-5",
+                  "title": "Secure authentication",
+                  "description": "Secure authentication mechanisms are implemented.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "iso-8-6",
+                  "title": "Capacity management",
+                  "description": "Capacity is monitored and planned to meet requirements.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                },
+                {
+                  "id": "iso-8-7",
+                  "title": "Protection against malware",
+                  "description": "Malware protection is implemented and maintained.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "iso-8-8",
+                  "title": "Management of technical vulnerabilities",
+                  "description": "Technical vulnerabilities are managed and remediated.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "iso-8-9",
+                  "title": "Configuration management",
+                  "description": "Configurations are managed securely.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "iso-8-10",
+                  "title": "Information deletion",
+                  "description": "Information is deleted when no longer required.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 3
+                },
+                {
+                  "id": "iso-8-11",
+                  "title": "Data masking",
+                  "description": "Data masking is used to protect sensitive data in non-production.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 3
+                },
+                {
+                  "id": "iso-8-12",
+                  "title": "Data leakage prevention",
+                  "description": "DLP controls prevent unauthorized data exfiltration.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "iso-8-15",
+                  "title": "Logging",
+                  "description": "Logs are generated, stored, and protected.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "iso-8-16",
+                  "title": "Monitoring activities",
+                  "description": "Networks, systems, and applications are monitored.",
+                  "evidenceType": [
+                    "screenshot"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "iso-8-23",
+                  "title": "Web filtering",
+                  "description": "Web access is filtered to prevent access to malicious sites.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 3
+                },
+                {
+                  "id": "iso-8-24",
+                  "title": "Use of cryptography",
+                  "description": "Cryptography is used to protect confidentiality, integrity, and authenticity.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "iso-8-25",
+                  "title": "Secure development life cycle",
+                  "description": "Security is integrated into the SDLC.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "iso-8-26",
+                  "title": "Application security requirements",
+                  "description": "Security requirements are defined for applications.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "iso-8-28",
+                  "title": "Secure coding",
+                  "description": "Secure coding practices are followed.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "iso-8-29",
+                  "title": "Security testing in development",
+                  "description": "Security testing is performed during development.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "iso-8-30",
+                  "title": "Outsourced development",
+                  "description": "Outsourced development is managed securely.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 3
+                },
+                {
+                  "id": "iso-8-31",
+                  "title": "Separation of development, test and production environments",
+                  "description": "Development, test, and production are separated.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "iso-8-33",
+                  "title": "Protection of test data",
+                  "description": "Test data is protected and anonymized.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 3
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "totalControls": 93,
+      "mappings": {
+        "nca-ecc": [
+          "1-1",
+          "1-2",
+          "1-3",
+          "1-4",
+          "1-5",
+          "1-8",
+          "1-9",
+          "1-10",
+          "2-1",
+          "2-2",
+          "2-3",
+          "2-5",
+          "2-7",
+          "2-8",
+          "2-9",
+          "2-10",
+          "2-12",
+          "2-13",
+          "2-14",
+          "3-1",
+          "4-1",
+          "4-2"
+        ],
+        "pdpl": [
+          "pdpl-4-1",
+          "pdpl-4-2"
+        ]
+      }
+    },
+    {
+      "id": "stc-security",
+      "name": "STC Security Pass",
+      "fullName": "STC Security Pass Program",
+      "regulator": "Communications & Space Technology Commission (CST)",
+      "regulatorId": "cst",
+      "version": "2024",
+      "description": "Security certification program for telecom service providers and vendors operating in the Saudi communications sector.",
+      "domains": [
+        {
+          "id": "stc-d1",
+          "name": "Security Governance",
+          "subdomains": [
+            {
+              "id": "stc-1-1",
+              "name": "Security Policy Framework",
+              "controls": [
+                {
+                  "id": "stc-1-1-1",
+                  "title": "Security policy alignment with CST",
+                  "description": "Security policies are aligned with CST regulatory requirements and industry standards.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "stc-1-1-2",
+                  "title": "Governance structure for telecom security",
+                  "description": "A governance structure specifically addresses telecom and network security.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "stc-d2",
+          "name": "Network Security",
+          "subdomains": [
+            {
+              "id": "stc-2-1",
+              "name": "Core Network Protection",
+              "controls": [
+                {
+                  "id": "stc-2-1-1",
+                  "title": "Core network segmentation",
+                  "description": "Core network elements are segmented and protected from external threats.",
+                  "evidenceType": [
+                    "diagram",
+                    "config"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "stc-2-1-2",
+                  "title": "Signaling security",
+                  "description": "SS7, Diameter, and GTP signaling is protected against interception and fraud.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 5
+                }
+              ]
+            },
+            {
+              "id": "stc-2-2",
+              "name": "Radio Access Network Security",
+              "controls": [
+                {
+                  "id": "stc-2-2-1",
+                  "title": "RAN security controls",
+                  "description": "Radio access network elements implement encryption and authentication.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "stc-2-2-2",
+                  "title": "Base station protection",
+                  "description": "Base stations are physically and logically secured.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "stc-d3",
+          "name": "Subscriber Data Protection",
+          "subdomains": [
+            {
+              "id": "stc-3-1",
+              "name": "Customer Data Security",
+              "controls": [
+                {
+                  "id": "stc-3-1-1",
+                  "title": "Subscriber data encryption",
+                  "description": "Subscriber data is encrypted at rest and in transit.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "stc-3-1-2",
+                  "title": "Lawful intercept compliance",
+                  "description": "Lawful intercept capabilities comply with CST and regulatory requirements.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "stc-d4",
+          "name": "Service Continuity",
+          "subdomains": [
+            {
+              "id": "stc-4-1",
+              "name": "Network Resilience",
+              "controls": [
+                {
+                  "id": "stc-4-1-1",
+                  "title": "Network redundancy",
+                  "description": "Critical network paths have redundancy to ensure service continuity.",
+                  "evidenceType": [
+                    "diagram"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "stc-4-1-2",
+                  "title": "Disaster recovery for telecom services",
+                  "description": "DR plans cover critical telecom services with defined RTOs.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "totalControls": 12,
+      "mappings": {
+        "nca-ecc": [
+          "2-5",
+          "2-7",
+          "2-8",
+          "3-1"
+        ],
+        "iso27001": [
+          "5.15",
+          "5.23",
+          "8.5",
+          "8.24"
+        ]
+      }
+    },
+    {
+      "id": "aramco-sacs",
+      "name": "Aramco SACS-210",
+      "fullName": "Saudi Aramco Cybersecurity Standard 210",
+      "regulator": "Saudi Aramco (Private Sector Standard)",
+      "regulatorId": "aramco",
+      "version": "2024",
+      "description": "Saudi Aramco's cybersecurity standard for third-party vendors, contractors, and affiliates requiring access to Aramco networks or data.",
+      "domains": [
+        {
+          "id": "sacs-d1",
+          "name": "Security Governance and Management",
+          "subdomains": [
+            {
+              "id": "sacs-1-1",
+              "name": "Security Organization",
+              "controls": [
+                {
+                  "id": "sacs-1-1-1",
+                  "title": "Security governance for Aramco engagement",
+                  "description": "A security governance structure is established for Aramco-related work.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "sacs-1-1-2",
+                  "title": "Aramco security liaison",
+                  "description": "A designated security liaison coordinates with Aramco on security matters.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            },
+            {
+              "id": "sacs-1-2",
+              "name": "Risk Management",
+              "controls": [
+                {
+                  "id": "sacs-1-2-1",
+                  "title": "Aramco-specific risk assessment",
+                  "description": "Risk assessments address threats specific to Aramco engagement.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "sacs-1-2-2",
+                  "title": "Third-party risk for Aramco data",
+                  "description": "Risks related to processing Aramco data are identified and treated.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sacs-d2",
+          "name": "Access and Identity Management",
+          "subdomains": [
+            {
+              "id": "sacs-2-1",
+              "name": "Aramco Network Access",
+              "controls": [
+                {
+                  "id": "sacs-2-1-1",
+                  "title": "Aramco network access controls",
+                  "description": "Access to Aramco networks is strictly controlled, monitored, and time-limited.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "sacs-2-1-2",
+                  "title": "Privileged access to Aramco systems",
+                  "description": "Privileged access to Aramco systems requires enhanced controls and justification.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 5
+                }
+              ]
+            },
+            {
+              "id": "sacs-2-2",
+              "name": "Identity Verification",
+              "controls": [
+                {
+                  "id": "sacs-2-2-1",
+                  "title": "Personnel vetting for Aramco access",
+                  "description": "Personnel with Aramco access undergo background verification.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                },
+                {
+                  "id": "sacs-2-2-2",
+                  "title": "Access revocation on termination",
+                  "description": "Aramco access is revoked immediately upon termination or project completion.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sacs-d3",
+          "name": "Data Protection and Handling",
+          "subdomains": [
+            {
+              "id": "sacs-3-1",
+              "name": "Aramco Data Classification",
+              "controls": [
+                {
+                  "id": "sacs-3-1-1",
+                  "title": "Aramco data classification compliance",
+                  "description": "Aramco data is handled per Aramco classification levels (Public, Internal, Confidential, Restricted).",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "sacs-3-1-2",
+                  "title": "Data handling procedures",
+                  "description": "Procedures define how Aramco data is stored, transmitted, and destroyed.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            },
+            {
+              "id": "sacs-3-2",
+              "name": "Encryption Requirements",
+              "controls": [
+                {
+                  "id": "sacs-3-2-1",
+                  "title": "Aramco encryption standards",
+                  "description": "Aramco data is encrypted per Aramco-approved algorithms and key lengths.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "sacs-3-2-2",
+                  "title": "Key management for Aramco data",
+                  "description": "Cryptographic keys for Aramco data are managed securely.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sacs-d4",
+          "name": "Endpoint and Network Security",
+          "subdomains": [
+            {
+              "id": "sacs-4-1",
+              "name": "Endpoint Protection",
+              "controls": [
+                {
+                  "id": "sacs-4-1-1",
+                  "title": "Aramco-compliant endpoint security",
+                  "description": "Endpoints accessing Aramco resources meet Aramco security baseline.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "sacs-4-1-2",
+                  "title": "Anti-malware on Aramco-connected devices",
+                  "description": "Anti-malware is deployed and updated on all Aramco-connected devices.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 4
+                }
+              ]
+            },
+            {
+              "id": "sacs-4-2",
+              "name": "Network Segregation",
+              "controls": [
+                {
+                  "id": "sacs-4-2-1",
+                  "title": "Aramco network segregation",
+                  "description": "Aramco-connected networks are segregated from other networks.",
+                  "evidenceType": [
+                    "diagram",
+                    "config"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "sacs-4-2-2",
+                  "title": "Firewall rules for Aramco traffic",
+                  "description": "Firewall rules restrict Aramco traffic to authorized ports and protocols.",
+                  "evidenceType": [
+                    "config"
+                  ],
+                  "weight": 4
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sacs-d5",
+          "name": "Incident Reporting",
+          "subdomains": [
+            {
+              "id": "sacs-5-1",
+              "name": "Aramco Incident Notification",
+              "controls": [
+                {
+                  "id": "sacs-5-1-1",
+                  "title": "Incident reporting to Aramco",
+                  "description": "Security incidents affecting Aramco data or systems are reported within 1 hour.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 5
+                },
+                {
+                  "id": "sacs-5-1-2",
+                  "title": "Incident response coordination",
+                  "description": "Incident response is coordinated with Aramco security team.",
+                  "evidenceType": [
+                    "document"
+                  ],
+                  "weight": 4
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "totalControls": 18,
+      "mappings": {
+        "nca-ecc": [
+          "1-4",
+          "2-2",
+          "2-7",
+          "2-8",
+          "2-13",
+          "4-1"
+        ],
+        "iso27001": [
+          "5.19",
+          "5.20",
+          "6.1",
+          "8.2",
+          "8.5",
+          "8.24"
+        ]
+      }
+    }
+  ],
+  "regulators": [
+    {
+      "id": "nca",
+      "name": "National Cybersecurity Authority",
+      "shortName": "NCA",
+      "frameworks": [
+        "nca-ecc"
+      ]
+    },
+    {
+      "id": "sama",
+      "name": "Saudi Central Bank",
+      "shortName": "SAMA",
+      "frameworks": [
+        "sama-csf"
+      ]
+    },
+    {
+      "id": "sdaia",
+      "name": "Saudi Data & AI Authority",
+      "shortName": "SDAIA",
+      "frameworks": [
+        "pdpl"
+      ]
+    },
+    {
+      "id": "iso",
+      "name": "International Organization for Standardization",
+      "shortName": "ISO",
+      "frameworks": [
+        "iso27001"
+      ]
+    },
+    {
+      "id": "cst",
+      "name": "Communications & Space Technology Commission",
+      "shortName": "CST",
+      "frameworks": [
+        "stc-security"
+      ]
+    },
+    {
+      "id": "aramco",
+      "name": "Saudi Aramco",
+      "shortName": "Aramco",
+      "frameworks": [
+        "aramco-sacs"
+      ]
+    }
+  ]
+}
